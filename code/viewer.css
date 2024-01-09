@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    height: 100px;
+}
+
+#layerManager {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    background-color: #ddd;
+    height: calc(100% - 80px);
+}
+
+#cesiumContainer {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    background-color: #eee;
+}
+
+#mesureIcon, #downloadIcon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
